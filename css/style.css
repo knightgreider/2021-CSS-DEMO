@@ -18,6 +18,8 @@ h1 {
     font-family: sans-serif;
     font-size: 50px;
     color: #FF42C3;
+    position: relative;
+    top: 150px;
 }
 
 p {
@@ -68,4 +70,11 @@ h2 {
 
 .box-color {
     background-color: #ffbfec;
+}
+
+#absolute-example {
+    position:fixed;
+    top: 0px;
+    left: 300px;
+    background-color: fuchsia;
 }
