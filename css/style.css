@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+@font-face {
+    font-family: 'courier_newitalic';
+    src: url('courier_new_italic-webfont.woff2') format('woff2'),
+         url('courier_new_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #134425;
+    font-family: 'courier_newitalic', monospace;
+    font-size: 200%;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 50px;
+    color: #FF42C3;
+}
+
+p {
+    color: aliceblue;
+    font-size: 50%;
+/*    font-family: 'Roboto', sans-serif;*/
+}
+
+#changed {
+    color: orange;
+}
+
+.para-class {
+    width: 75%;
+    background-color: rgba(145, 219, 148,);
+    height: 200px;
+    color: blueviolet;
+}
+
+#first-paragraph {
+    width: 90%;
+    height: 20%;
+    background-color: #eb3f32;
+}
+
+#main-container {
+    height: 700px;
+    max-width: 1300px;
+    min-width: 600px;
+    background-color: darkgray;
+    padding: 30px;
+    margin: 50px;
+/*    border: 2px solid orange;*/
+}
+
+#second-container {
+    height: 600px;
+    width: 700px;
+    background-color: #25ba2a;
+    padding: 20px;
+    border: 3px solid black;
+}
+
+h2 {
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.box-color {
+    background-color: #ffbfec;
+}
